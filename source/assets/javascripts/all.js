@@ -20,7 +20,7 @@ $(document).ready(function() {
         $('#photodisplay').fadeOut('slow',
                                    function() {
                                        $(this).css("background-image",
-                                                   bg).fadeIn('slow')
+                                                   bg).fadeIn('fast')
                                    }
                                   )};
 

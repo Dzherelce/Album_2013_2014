@@ -50,6 +50,7 @@ end
 
 configure :build do
   # activate :directory_indexes
+  activate :relative_assets
   activate :sprockets
   activate :minify_css
   activate :minify_javascript
