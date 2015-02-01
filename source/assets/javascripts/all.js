@@ -7,6 +7,8 @@
 
 $(document).ready(function() {
 
+    setTimeout( function() { $("#help").fadeOut(2000)}, 2500);
+
     var currentImage = 0;
     var imgArray = $("#photodisplay img").map(function() {
         return $(this).attr("src");
@@ -54,6 +56,9 @@ $(document).ready(function() {
         switch (evt.keyCode) {
         case 37:
             leftArrowPressed();
+            break;
+        case 32: // space
+            rightArrowPressed();
             break;
         case 39:
             rightArrowPressed();

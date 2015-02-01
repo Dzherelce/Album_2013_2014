@@ -10,6 +10,7 @@
     }
 }
 
+
 #prev {
     left: 10px;
 }
@@ -17,7 +18,7 @@
     right: 10px;
 }
 #photodisplay {
-    z-index: 1;
+    z-index: -10;
     position: absolute;
     top: 0;
     left: 0;
@@ -35,4 +36,20 @@
     img {
         display: none;
     }
+}
+
+#help {
+    font-size: 40px;
+    width: 80%;
+    position: relative;
+    top: 20%;
+    font-family: sans-serif;
+    text-align: center;
+    // #F3DB53
+    background-color: rgba(243, 219, 83, 0.8);
+    padding: 1ex;
+    color: rgb(0,0,0);
+    border-radius: 1em;
+    margin: 0 auto;
+
 }
