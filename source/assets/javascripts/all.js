@@ -1,9 +1,9 @@
 /*
 
-*= require jquery.min
-*= require bootstrap
+ *= require jquery.min
 
-*/
+
+ */
 
 $(document).ready(function() {
 
